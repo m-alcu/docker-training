@@ -8,8 +8,8 @@
 # 2. Use Docker linking with alias = DB to link to a MongoDB Docker Container
 #    Sample: docker run <image> --link <dbContainer>:DB
 
-FROM node:latest
-MAINTAINER pjmolina 
+FROM node:arm
+MAINTAINER malcubierre
 
 ENV NODE_ENV=production
 
